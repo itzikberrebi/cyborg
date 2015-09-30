@@ -15,7 +15,7 @@ jQuery(document).ready(function() {
 	jQuery('.expand').on('click', function(e)  {
 
 		               $.get( 
-                  "https://sb-ssl.google.com/safebrowsing/api/lookup",
+                  "https://www.sb-ssl.google.com/safebrowsing/api/lookup",
                   { client: "Zara",
                   	key: "AIzaSyAfEUBOJApws1UJysmsJNwYMy8RKwiJKfY",
                   	appver: "1.5.2",

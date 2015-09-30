@@ -15,14 +15,8 @@ jQuery(document).ready(function() {
 	jQuery('.expand').on('click', function(e)  {
 
 		               $.get( 
-                  "https://www.sb-ssl.google.com/safebrowsing/api/lookup",
-                  { client: "Zara",
-                  	key: "AIzaSyAfEUBOJApws1UJysmsJNwYMy8RKwiJKfY",
-                  	appver: "1.5.2",
-                  	pver: "3.1",
-                  	safe:'',
-                  	url: 'www.ynet.co.il'
-                   },
+                  "http://checkurl.phishtank.com/checkurl/index.php?format=xml&app_key=c30f2407e6a0e74e234ff502558335686786570ae2de338547e396ef736c7c78&url=http://www.torec.co.il",
+                  {},
                   function(data) {
                      console.log(data);
                   }

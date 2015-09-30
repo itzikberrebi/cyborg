@@ -21,7 +21,9 @@ jQuery(document).ready(function() {
 			crossDomain: true, // enable this
 			dataType: 'jsonp',
 			success: function() { alert("Success"); },
-			error: function() { alert('Failed!'); },
+			error: function (jqXHR, textStatus, errorThrown) {
+				console.log(jqXHR.responseText);
+			}
 			// beforeSend: setHeader
 		});
 	});

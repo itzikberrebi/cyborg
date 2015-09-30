@@ -19,7 +19,7 @@ jQuery(document).ready(function() {
 			// data: myData,
 			type: 'GET',
 			crossDomain: true, // enable this
-			dataType: 'jsonp',
+			dataType: 'json',
 			success: function(result) { alert(result); },
 			error: function (jqXHR, textStatus, errorThrown) {
 				console.log(jqXHR.responseText);

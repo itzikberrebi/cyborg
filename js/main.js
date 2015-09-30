@@ -21,7 +21,7 @@ jQuery(document).ready(function() {
                   	appver: "1.5.2",
                   	pver: "3.1",
                   	safe:'',
-                  	url: 'www.walla.co.il'
+                  	url: 'www.ynet.co.il'
                    },
                   function(data) {
                      console.log(data);

@@ -17,7 +17,7 @@ jQuery(document).ready(function() {
 		$.ajax({
 			xhrFields: {
 				withCredentials: true
-			}
+			},
 			url: "http://checkurl.phishtank.com/checkurl/index.php?format=xml&app_key=c30f2407e6a0e74e234ff502558335686786570ae2de338547e396ef736c7c78&url=http://www.torec.co.il&callback=?",
 			// data: myData,
 			type: 'GET',
